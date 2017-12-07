@@ -1,12 +1,12 @@
 {
-    "name": "jadsalhani/world-countries-cities",
+    "name": "dukenicols/world-countries-cities",
     "description": "A package to delivery a wide seed array of Countries & their respective cities.",
     "keywords": ["laravel", "countries", "cities", "database", "seed"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jad Salhani",
-            "email": "jad@salhani.com"
+            "name": "Nicolas Duque",
+            "email": "dukenicols@gmail.com"
         }
     ],
     "require": {
@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Jadsalhani\\WorldCountriesCities\\": "src/"
+            "Dukenicols\\WorldCountriesCities\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Jadsalhani\\WorldCountriesCities\\WorldCountriesCitiesServiceProvider"
+                "Dukenicols\\WorldCountriesCities\\WorldCountriesCitiesServiceProvider"
             ]
         }
     }

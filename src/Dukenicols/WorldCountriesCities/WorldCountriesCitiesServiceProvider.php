@@ -1,6 +1,6 @@
 <?php
 
-namespace Jadsalhani\WorldCountriesCities;
+namespace Dukenicols\WorldCountriesCities;
 
 use Illuminate\Support\ServiceProvider;
 

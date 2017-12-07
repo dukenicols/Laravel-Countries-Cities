@@ -16,7 +16,7 @@ A Laravel package for using world's popular countries and cities.
 
 Require the package with composer:
 ```
-composer require jadsalhani/world-countries-cities
+composer require Dukenicols/world-countries-cities
 ```
 
 The ServiceProvider will be added to the providers array in config/app.php through
@@ -38,8 +38,8 @@ public function run()
 {
     Model::unguard();
 
-    $this->call('Jadsalhani\WorldCountriesCities\CitiesSeeder');
-    $this->call('Jadsalhani\WorldCountriesCities\CountriesSeeder');
+    $this->call('Dukenicols\WorldCountriesCities\CitiesSeeder');
+    $this->call('Dukenicols\WorldCountriesCities\CountriesSeeder');
 }
 ```
 
